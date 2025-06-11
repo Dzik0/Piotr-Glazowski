@@ -92,7 +92,12 @@ li:hover {
   border: 1px solid rgba(255, 255, 255, 0.435);
   padding: 1rem;
   border-radius: 1rem;
+  /*   box-shadow: 0 0 15px 1px rgba(30, 197, 186, 0.542); */
+}
+
+.card:hover {
   box-shadow: 0 0 15px 1px rgba(30, 197, 186, 0.542);
+  transition: 0.8s;
 }
 
 .top-card {
@@ -178,10 +183,12 @@ li:hover {
 }
 
 .exp-container:hover {
-  .exp-info-container > h3 {
+  box-shadow: 0 0 15px 1px rgba(30, 197, 186, 0.542);
+  transition: 0.8s;
+  /*   .exp-info-container > h3 {
     color: rgb(30, 197, 186);
     transition: 0.8s;
-  }
+  } */
 }
 
 .exp-date {
@@ -276,10 +283,12 @@ h1:hover {
 }
 
 .single-project-container:hover {
-  h3 {
+  box-shadow: 0 0 15px 1px rgba(30, 197, 186, 0.542);
+  transition: 0.8s;
+  /*   h3 {
     color: rgb(30, 197, 186);
     transition: 0.8s;
-  }
+  } */
 }
 
 .project-img-container {
